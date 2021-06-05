@@ -2,7 +2,7 @@
 # coding:utf-8
 #   
 #   Author  :   Johy
-#   E-mail  :   1642948262@qq.com
+#   E-mail  :   c13340908272@outlook.com
 #   Date    :   2021-06-05
 #   Desc    :   从域名列解析出对应ip地址；
 
