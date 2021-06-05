@@ -9,7 +9,7 @@ from rich.console import Console
 
 console = Console()
 
-parser = argparse.ArgumentParser(description='Parse the github domain to get the ip, or parse the given domain.')
+parser = argparse.ArgumentParser(description='Parse the github domain to get ip, or parse given domain.')
 parser.add_argument('-d','--domain',nargs='*',help = 'input one domain to be parse')
 parser.add_argument('-a','--add',nargs='*',help = 'add domain to be parse list')
 args = parser.parse_args()
@@ -91,7 +91,7 @@ def gen_host():
             yield (ip, domain)
         
 
-def get_now_date_str(format_string="%Y-%m-%d %H:%M:%S"):#"%Y-%m-%d %H:%M:%S"
+def get_time(format_string="%Y-%m-%d %H:%M:%S"):#"%Y-%m-%d %H:%M:%S"
     utc_dt = datetime.utcnow().replace(tzinfo=timezone.utc)
     bj_dt = utc_dt.astimezone(timezone(timedelta(hours=8)))
     str_date = bj_dt.strftime(format_string)
@@ -100,12 +100,12 @@ def get_now_date_str(format_string="%Y-%m-%d %H:%M:%S"):#"%Y-%m-%d %H:%M:%S"
 def output_hosts():
     with open('hosts.txt', 'w') as f:
         f.write('```\n')
-        f.write('# GitHub Start \n')
-        f.write('# Last update at %s (Beijing Time)\n'%(get_now_date_str()))
+        f.write('# GithubHosts Start \n')
         for ip, domain in gen_host():
             console.print('ip %s'%ip)
             f.write('%s %s\n'%(ip, domain))
-        f.write('# GitHub End \n')
+        f.write('\n# Last update at %s (Beijing Time)\n'%(get_time()))
+        f.write('# GithubHosts End \n')
         f.write('```\n')
 if __name__ == '__main__':
     output_hosts()

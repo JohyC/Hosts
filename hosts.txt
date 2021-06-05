@@ -1,51 +1,7 @@
 ```
-# GitHub Start 
-# Last update at 2021-06-05 13:53:11 (Beijing Time)
-13.250.177.223 github.com
-140.82.114.30 githubapp.com
-13.250.94.254 api.github.com
-185.199.111.133 raw.github.com
-13.250.177.223 gist.github.com
-13.250.177.223 octocaptcha.com
-185.199.111.154 help.github.com
-140.82.113.26 live.github.com
-64.71.168.201 github.community
-185.199.108.153 githubstatus.com
-185.199.111.153 pages.github.com
-140.82.113.17 status.github.com
-13.250.161.114 uploads.github.com
-13.229.189.0 nodeload.github.com
-185.199.111.153 training.github.com
-13.229.189.0 codeload.github.com
-185.199.111.153 assets-cdn.github.com
-185.199.109.154 github.githubassets.com
-185.199.111.153 documentcloud.github.com
-185.199.110.133 raw.githubusercontent.com
-185.199.111.133 gist.githubusercontent.com
-185.199.111.133 camo.githubusercontent.com
-185.199.111.133 cloud.githubusercontent.com
-185.199.111.133 media.githubusercontent.com
-52.217.40.76 github-com.s3.amazonaws.com
-151.101.193.194 github.global.ssl.fastly.net
-185.199.111.133 desktop.githubusercontent.com
-52.216.234.35 github-cloud.s3.amazonaws.com
-185.199.108.133 avatars.githubusercontent.com
-185.199.111.133 favicons.githubusercontent.com
-185.199.111.133 avatars0.githubusercontent.com
-185.199.111.133 avatars1.githubusercontent.com
-185.199.111.133 avatars2.githubusercontent.com
-185.199.111.133 avatars3.githubusercontent.com
-185.199.111.133 avatars4.githubusercontent.com
-185.199.111.133 avatars5.githubusercontent.com
-185.199.111.133 avatars6.githubusercontent.com
-185.199.111.133 avatars7.githubusercontent.com
-185.199.111.133 avatars8.githubusercontent.com
-185.199.111.153 customer-stories-feed.github.com
-185.199.111.133 user-images.githubusercontent.com
-185.199.111.133 repository-images.githubusercontent.com
-185.199.108.133 marketplace-screenshots.githubusercontent.com
-52.216.93.211 github-production-user-asset-6210df.s3.amazonaws.com
-52.217.110.220 github-production-release-asset-2e65be.s3.amazonaws.com
-52.216.93.211 github-production-repository-file-5c1aeb.s3.amazonaws.com
-# GitHub End 
+# GithubHosts Start 
+218.6.215.253 suni.cf
+
+# Last update at 2021-06-05 14:02:28 (Beijing Time)
+# GithubHosts End 
 ```
