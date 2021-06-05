@@ -1,10 +1,15 @@
 #!/usr/bin/env python
 # coding:utf-8
- 
+#   
+#   Author  :   Johy
+#   E-mail  :   1642948262@qq.com
+#   Date    :   2021-06-05
+#   Desc    :   从域名列解析出对应ip地址；
+
 import socket
 import argparse
+
 from datetime import datetime, timedelta, timezone
-from rich import print
 from rich.console import Console
 
 console = Console()
