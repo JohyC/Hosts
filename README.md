@@ -1,8 +1,15 @@
 # GithubHosts
 
-## 介绍
-1. Python脚本默认解析GitHub domain获取ip，生成hosts。
-2. 接收参数解析自定义域名。
+## 项目介绍
+1. 目标：
+
+   - 解决vpn失效时，无法访问GitHub的问题。
+
+2. 原理：
+
+   - python从域名解析出对应ip地址列；
+
+   - 编辑hosts直接映射GitHub域名到ip，从中间环节杜绝dns污染；
 
 ## 脚本使用
 1. python引入rich库，使用脚本前需 pip install rich；
@@ -17,3 +24,7 @@
 - 推荐 [SwitchHosts](https://github.com/oldj/SwitchHosts) 工具；
 
 - 修改hosts文件完成后 win10 请使用 ipconfig /flushdns 刷新dns缓存；
+
+## TODO
+
+- [ ] GitHub Actions自动更新hosts内容；
