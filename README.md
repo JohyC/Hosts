@@ -1,4 +1,5 @@
 # GithubHosts
+
 ## 介绍
 Python解析域名生成Hosts文件
 Parse the github domain to get ip, or parse given domain.
