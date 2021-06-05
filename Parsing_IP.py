@@ -2,25 +2,32 @@
 # coding:utf-8
  
 import socket
+import argparse
 from datetime import datetime, timedelta, timezone
 from rich import print
 from rich.console import Console
 
 console = Console()
+
+parser = argparse.ArgumentParser(description='Parse the github domain to get the ip, or parse the given domain.')
+parser.add_argument('-d','--domain',nargs='*',help = 'input one domain to be parse')
+parser.add_argument('-a','--add',nargs='*',help = 'add domain to be parse list')
+args = parser.parse_args()
+
 domains = [
     'github.com',
     'githubapp.com',
     'api.github.com',
     'raw.github.com',
     'gist.github.com',
-    'octocaptcha.com',                                      # 用途包括但不限于: 创建organization时的验证码
+    'octocaptcha.com',
     'help.github.com',
     'live.github.com',
     'github.community',
     'githubstatus.com',
     'pages.github.com',
     'status.github.com',
-    'uploads.github.com',                                   # 用途包括但不限于: release附件上传
+    'uploads.github.com',
     'nodeload.github.com',
     'training.github.com',
     'codeload.github.com',
@@ -56,6 +63,12 @@ domains = [
     'github-production-repository-file-5c1aeb.s3.amazonaws.com',
 ]
 
+if args.domain:
+  domains = args.domain
+elif args.add:
+  for list in args.add:
+    console.print(list)
+    domains.append(list)
         
 def get_ip_list(domain): # 获取域名解析出的IP列表
   ip_list = []
