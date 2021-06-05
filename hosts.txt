@@ -1,7 +1,0 @@
-```
-# GithubHosts Start 
-218.6.215.253 suni.cf
-
-# Last update at 2021-06-05 14:02:28 (Beijing Time)
-# GithubHosts End 
-```
