@@ -99,13 +99,12 @@ def get_time(format_string="%Y-%m-%d %H:%M:%S"):#"%Y-%m-%d %H:%M:%S"
 
 def output_hosts():
     with open('hosts.txt', 'w') as f:
-        f.write('```\n')
         f.write('# GithubHosts Start \n')
         for ip, domain in gen_host():
             console.print('ip %s'%ip)
             f.write('%s %s\n'%(ip, domain))
         f.write('\n# Last update at %s (Beijing Time)\n'%(get_time()))
-        f.write('# GithubHosts End \n')
-        f.write('```\n')
+        f.write('Star me GitHub url: https://github.com/JohyC/GithubHosts')
+        f.write('# GithubHosts End \n\n')
 if __name__ == '__main__':
     output_hosts()
