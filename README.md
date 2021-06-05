@@ -5,6 +5,8 @@ Python解析域名生成Hosts文件
 Parse the github domain to get ip, or parse given domain.
 
 ## 使用方法
+python引入rich库，使用脚本前需 pip install rich；
+
 python parsing_hosts.py -a domain domain ...
 -a命令，在默认github domain列表后加入需要解析的域名；
 python parsing_hosts.py -d domain domain ...
