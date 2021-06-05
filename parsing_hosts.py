@@ -15,7 +15,7 @@ from rich.console import Console
 console = Console()
 
 parser = argparse.ArgumentParser(description='Parse the github domain to get ip, or parse given domain.')
-parser.add_argument('-d','--domain',nargs='*',help = 'input one domain to be parse')
+parser.add_argument('-d','--domains',nargs='*',help = 'input one domain to be parse')
 parser.add_argument('-a','--add',nargs='*',help = 'add domain to be parse list')
 args = parser.parse_args()
 
@@ -68,8 +68,8 @@ domains = [
     'github-production-repository-file-5c1aeb.s3.amazonaws.com',
 ]
 
-if args.domain:
-  domains = args.domain
+if args.domains:
+  domains = args.domains
 elif args.add:
   for list in args.add:
     console.print(list)
