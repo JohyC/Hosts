@@ -37,7 +37,6 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.REPO_TOKEN }}
       run: python parsing_hosts.py
     -name: commit
-     id: commit
      run: |
         git config --global user.email c13340908272@outlook.com
         git config --global user.name action_bot
