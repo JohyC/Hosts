@@ -108,8 +108,8 @@ def output_hosts():
         for ip, domain in gen_host():
             console.print('ip %s'%ip)
             f.write('%s %s\n'%(ip, domain))
-        f.write('\n# Last update at %s (Beijing Time)\n'%(get_time()))
-        f.write('Star me GitHub url: https://github.com/JohyC/GithubHosts')
-        f.write('# GithubHosts End \n\n')
+        f.write('\n# Last update at %s (Beijing Time)'%(get_time()))
+        f.write('\n# Star me GitHub url: https://github.com/JohyC/GithubHosts')
+        f.write('\n# GithubHosts End \n\n')
 if __name__ == '__main__':
     output_hosts()
