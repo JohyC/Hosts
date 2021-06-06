@@ -1,0 +1,3 @@
+rich==10.2.2
+socket
+argparse

@@ -1,0 +1,36 @@
+# This workflow will install Python dependencies, run tests and lint with a variety of Python versions
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+
+name: GithubHosts
+
+# 当有提交、有issue创建时触发，或者凌晨1点左右触发
+# 将最新host提交到release的附件
+on:
+  push:
+  schedule:
+    - cron: '0 */2 * * *'
+  issues:
+    types: [opened]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.9]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f dependencies.txt ]; then pip install -r dependencies.txt; fi
+        
+    - name: update hosts
+      run: python parsing_hosts.py
