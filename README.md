@@ -28,4 +28,4 @@
 
 ## TODO
 
-- [ ] GitHub Actions自动更新hosts内容；
+- [x] GitHub Actions自动更新hosts内容；
