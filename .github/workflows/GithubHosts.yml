@@ -48,7 +48,7 @@ jobs:
       if: steps.commit.outputs.status == 'failure'
       run: exit 1
     - name: Push changes
-      uses: ad-m/github-push-action@actions
+      uses: ad-m/github-push-action@master
       with:
         github_token: ACCESS_TOKEN
         
