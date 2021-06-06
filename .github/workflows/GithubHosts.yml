@@ -4,10 +4,10 @@
 
 name: GithubHosts
 
-# 当有提交、有issue创建时触发，或者凌晨1点左右触发
-# 将最新host提交到release的附件
 on:
   push:
+    branches:    
+      - main
   schedule:
     - cron: '0 */2 * * *'
   issues:
@@ -33,4 +33,22 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         
     - name: update hosts
+      env:
+        ACCESS_TOKEN: ${{ secrets.REPO_TOKEN }}
       run: python parsing_hosts.py
+    -name: commit
+     id: commit
+     run: |
+        git config --global user.email c13340908272@outlook.com
+        git config --global user.name action_bot
+        git add .
+        git commit -m "update hosts"
+      continue-on-error: true
+    - name: Check on failures
+      if: steps.commit.outputs.status == 'failure'
+      run: exit 1
+    - name: Push changes
+      uses: ad-m/github-push-action@actions
+      with:
+        github_token: ACCESS_TOKEN
+        
