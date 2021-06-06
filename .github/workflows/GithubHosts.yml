@@ -36,8 +36,9 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.REPO_TOKEN }}
       run: python parsing_hosts.py
-    -name: commit
-     run: |
+    - name: commit
+      id: commit
+      run: |
         git config --global user.email c13340908272@outlook.com
         git config --global user.name action_bot
         git add .
@@ -47,7 +48,7 @@ jobs:
       if: steps.commit.outputs.status == 'failure'
       run: exit 1
     - name: Push changes
-      uses: ad-m/github-push-action@actions
+      uses: ad-m/github-push-action@master
       with:
         github_token: ACCESS_TOKEN
         
