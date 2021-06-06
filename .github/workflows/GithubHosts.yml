@@ -32,8 +32,6 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         
     - name: update hosts
-      env:
-        ACCESS_TOKEN: ${{ secrets.REPO_TOKEN }}
       run: python parsing_hosts.py
     - name: commit
       id: commit
@@ -49,6 +47,6 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ ACCESS_TOKEN }}
+        github_token: ${{ secrets.REPO_TOKEN }}
         branch: ${{ github.ref }}
         
