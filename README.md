@@ -29,3 +29,4 @@
 ## TODO
 
 - [x] GitHub Actions自动更新hosts内容；
+- [x] GitHub Actions自动更新本仓库代码至[Gitee](https://gitee.com/yuchi-shentang/GithubHosts)；(可从Gitee获取最新hosts文件)
