@@ -53,8 +53,8 @@ jobs:
     - name: Mirror the GithubHosts repos to Gitee
       uses: Yikun/hub-mirror-action@master
       with:
-        src: github/GithubHosts
-        dst: gitee/GithubHosts
+        src: github/JohyC
+        dst: gitee/yuchi-shentang
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token: ${{ secrets.GITEE_TOKEN }}
         account_type: user
