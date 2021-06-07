@@ -60,3 +60,4 @@ jobs:
         account_type: user
         force_update: true
         debug: true
+        static_list: GithubHosts
