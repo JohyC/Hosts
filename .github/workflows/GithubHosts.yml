@@ -71,5 +71,5 @@ jobs:
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} 
         local_path: './hosts.txt'
         remote_path: '/upload'
-        args: '-o ConnectTimeout=10'
+        args: '-o ConnectTimeout=15'
         
