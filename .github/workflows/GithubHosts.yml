@@ -72,3 +72,4 @@ jobs:
         local_path: './hosts.txt'
         remote_path: '/uploads'
         args: '-o ConnectTimeout=10'
+        
