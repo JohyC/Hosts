@@ -30,4 +30,4 @@
 
 - [x] GitHub Actions自动更新hosts内容；
 - [x] GitHub Actions自动更新本仓库代码至[Gitee](https://gitee.com/yuchi-shentang/GithubHosts)；(可从Gitee获取最新hosts文件)
-- [ ] 解决Gitee同步文件违规问题；
+- [x] Github actions自动同步hosts文件至私人服务器地址；[hosts](https://www.suni.cf:8888/hosts/hosts.txt)；(解决Gitee hosts.txt文件违规问题)
