@@ -73,3 +73,9 @@ jobs:
         remote_path: '/upload'
         args: '-o ConnectTimeout=15'
         
+    # 删除无用 workflow runs;
+    - name: Delete workflow runs
+      uses: GitRML/delete-workflow-runs@main
+      with:
+        retain_days: 0.5
+        keep_minimum_runs: 3
