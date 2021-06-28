@@ -29,7 +29,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        if [ -f requirements ]; then pip install -r requirements; fi
         
     - name: update hosts
       run: python parsing_hosts.py && sh EpicHosts.sh && sh GithubHosts.sh
