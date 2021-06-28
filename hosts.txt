@@ -138,14 +138,14 @@
 52.217.165.1 github-production-user-asset-6210df.s3.amazonaws.com
 52.216.92.67 github-production-release-asset-2e65be.s3.amazonaws.com
 52.217.78.220 github-production-repository-file-5c1aeb.s3.amazonaws.com
-104.16.169.131 hcaptcha.com
 104.16.168.131 hcaptcha.com
+104.16.169.131 hcaptcha.com
 104.16.168.131 newassets.hcaptcha.com
 104.16.169.131 newassets.hcaptcha.com
 104.16.169.131 imgs.hcaptcha.com
 104.16.168.131 imgs.hcaptcha.com
 
-# Last update at 2021-06-28 14:16:48 (Beijing Time)
+# Last update at 2021-06-28 14:17:40 (Beijing Time)
 # Star me GitHub url: https://github.com/JohyC/GithubHosts
 # Hosts End 
 
