@@ -19,6 +19,7 @@ parser = argparse.ArgumentParser(description='Parse the github domain to get ip,
 parser.add_argument('-d','--domains',nargs='*',help = 'input one domain to be parse')
 parser.add_argument('-a','--add',nargs='*',help = 'add domain to be parse list')
 parser.add_argument('-f','--file',nargs='?',type=argparse.FileType('r'),help='give me a file here!')
+parser.add_argument('-o','--output',nargs=1,type=str,help='output name')
 args = parser.parse_args()
 
 domains = [
@@ -72,6 +73,10 @@ domains = [
     'newassets.hcaptcha.com',
     'imgs.hcaptcha.com',
 ]
+name = "hosts.txt"
+
+if args.output:
+  name = args.output[0]
 
 if args.domains:
   domains = args.domains
@@ -110,7 +115,7 @@ def get_time(format_string="%Y-%m-%d %H:%M:%S"):#"%Y-%m-%d %H:%M:%S"
     return str_date
 
 def output_hosts():
-    with open('hosts.txt', 'w') as f:
+    with open(name, 'w') as f:
         f.write('# Hosts Start \n')
         for ip, domain in gen_host():
             console.print('ip %s'%ip)
