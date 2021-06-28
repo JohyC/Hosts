@@ -1,9 +1,10 @@
-# GithubHosts
+# Hosts
 
 ## 项目介绍
 1. 目标：
 
    - 解决vpn失效时，无法访问GitHub的问题。
+   - 添加 epic无法登录和领取免费游戏 hosts。
    - 第一次写python，练手学习.....
 
 2. 原理：
