@@ -1,0 +1,3 @@
+hcaptcha.com
+newassets.hcaptcha.com
+imgs.hcaptcha.com

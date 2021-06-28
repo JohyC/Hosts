@@ -8,6 +8,7 @@
 
 import socket
 import argparse
+import sys
 
 from datetime import datetime, timedelta, timezone
 from rich.console import Console
@@ -17,6 +18,7 @@ console = Console()
 parser = argparse.ArgumentParser(description='Parse the github domain to get ip, or parse given domain.')
 parser.add_argument('-d','--domains',nargs='*',help = 'input one domain to be parse')
 parser.add_argument('-a','--add',nargs='*',help = 'add domain to be parse list')
+parser.add_argument('-f','--file',nargs='?',type=argparse.FileType('r'),help='give me a file here!')
 args = parser.parse_args()
 
 domains = [
@@ -77,6 +79,8 @@ elif args.add:
   for list in args.add:
     console.print(list)
     domains.append(list)
+elif args.file:
+  domains = args.file
         
 def get_ip_list(domain): # 获取域名解析出的IP列表
   ip_list = []
@@ -85,7 +89,7 @@ def get_ip_list(domain): # 获取域名解析出的IP列表
     for item in addrs:
       if item[4][0] not in ip_list:
         ip_list.append(item[4][0])
-  except Exception as e:
+  except Exception:
     ip_list.append('No resolution for '+domain)
     pass
   return ip_list
@@ -94,7 +98,7 @@ def gen_host():
     for domain in domains:
         console.print('Querying ip for domain ',style="#66CCFF",end="")
         console.print(domain,style="#ff6800")
-        list = get_ip_list(domain)
+        list = get_ip_list(domain.strip())
         for ip in list:
             yield (ip, domain)
         
@@ -107,12 +111,12 @@ def get_time(format_string="%Y-%m-%d %H:%M:%S"):#"%Y-%m-%d %H:%M:%S"
 
 def output_hosts():
     with open('hosts.txt', 'w') as f:
-        f.write('# GithubHosts Start \n')
+        f.write('# Hosts Start \n')
         for ip, domain in gen_host():
             console.print('ip %s'%ip)
-            f.write('%s %s\n'%(ip, domain))
+            f.write('%s %s\n'%(ip, domain.strip()))
         f.write('\n# Last update at %s (Beijing Time)'%(get_time()))
         f.write('\n# Star me GitHub url: https://github.com/JohyC/GithubHosts')
-        f.write('\n# GithubHosts End \n\n')
+        f.write('\n# Hosts End \n\n')
 if __name__ == '__main__':
     output_hosts()
