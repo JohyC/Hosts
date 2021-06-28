@@ -69,7 +69,7 @@ jobs:
         username: 'GithubHosts'
         server: 'suni.cf'
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} 
-        local_path: './hosts.txt'
+        local_path: './*.txt'
         remote_path: '/upload'
         args: '-o ConnectTimeout=15'
         
