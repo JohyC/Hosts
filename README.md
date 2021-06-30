@@ -1,6 +1,7 @@
 # Hosts
 
 ## 项目介绍
+
 1. 目标：
 
    - 解决vpn失效时，无法访问GitHub的问题。
@@ -14,6 +15,7 @@
    - 编辑hosts直接映射GitHub域名到ip，从中间环节杜绝dns污染；
 
 ## 脚本使用
+
 1. python引入rich库，使用脚本前需 pip install rich；
 2. python parsing_hosts.py -a domain domain ...
    -a命令，在默认domain列表后加入需要解析的域名；
@@ -32,9 +34,10 @@
 
 1. Github https://github.com/JohyC/Hosts/blob/main/hosts.txt
 2. Gitee https://gitee.com/yuchi-shentang/GithubHosts/blob/main/hosts.txt
-3. 私人服务器 hosts:       https://www.suni.cf:8880/Hosts/hosts.txt 
-             GithubHosts: https://www.suni.cf:8880/Hosts/GithubHosts.txt
-             EpicHosts:   https://www.suni.cf:8880/Hosts/EpicHosts.txt
+3. 私人服务器 
+   - hosts:          https://www.suni.cf:8880/Hosts/hosts.txt 
+   - GithubHosts:    https://www.suni.cf:8880/Hosts/GithubHosts.txt
+   - EpicHosts:      https://www.suni.cf:8880/Hosts/EpicHosts.txt
 
 ### 修改方法
 
