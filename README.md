@@ -32,7 +32,9 @@
 
 1. Github https://github.com/JohyC/Hosts/blob/main/hosts.txt
 2. Gitee https://gitee.com/yuchi-shentang/GithubHosts/blob/main/hosts.txt
-3. 私人服务器 https://www.suni.cf:8880/hosts.txt
+3. 私人服务器 hosts:       https://www.suni.cf:8880/Hosts/hosts.txt 
+             GithubHosts: https://www.suni.cf:8880/Hosts/GithubHosts.txt
+             EpicHosts:   https://www.suni.cf:8880/Hosts/EpicHosts.txt
 
 ### 修改方法
 
@@ -48,4 +50,4 @@
 
 - [x] GitHub Actions自动更新hosts内容；
 - [x] GitHub Actions自动更新本仓库代码至[Gitee](https://gitee.com/yuchi-shentang/GithubHosts)；(可从Gitee获取最新hosts文件)
-- [x] Github actions自动同步hosts文件至私人服务器地址；[hosts](https://www.suni.cf:8880/hosts.txt)；(解决Gitee hosts.txt文件违规问题)
+- [x] Github actions自动同步hosts文件至私人服务器地址；[hosts](https://www.suni.cf:8880/Hosts/hosts.txt)；(解决Gitee hosts.txt文件违规问题)
