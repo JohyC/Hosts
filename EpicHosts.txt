@@ -3,10 +3,10 @@
 104.16.169.131 hcaptcha.com
 104.16.168.131 newassets.hcaptcha.com
 104.16.169.131 newassets.hcaptcha.com
-104.16.169.131 imgs.hcaptcha.com
 104.16.168.131 imgs.hcaptcha.com
+104.16.169.131 imgs.hcaptcha.com
 
-# Last update at 2021-06-30 10:27:49 (Beijing Time)
+# Last update at 2021-06-30 12:12:25 (Beijing Time)
 # Star me GitHub url: https://github.com/JohyC/GithubHosts
 # Hosts End 
 
