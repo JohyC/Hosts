@@ -24,6 +24,7 @@ args = parser.parse_args()
 
 domains = [
     'github.com',
+    'github.blog',
     'githubapp.com',
     'api.github.com',
     'raw.github.com',
