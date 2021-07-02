@@ -6,7 +6,7 @@
 104.16.168.131 imgs.hcaptcha.com
 104.16.169.131 imgs.hcaptcha.com
 
-# Last update at 2021-07-03 00:15:48 (Beijing Time)
+# Last update at 2021-07-03 02:10:16 (Beijing Time)
 # Star me GitHub url: https://github.com/JohyC/GithubHosts
 # Hosts End 
 
