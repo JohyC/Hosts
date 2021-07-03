@@ -1,52 +1,52 @@
 # Hosts Start 
 104.16.169.131 hcaptcha.com
 104.16.168.131 hcaptcha.com
-52.20.213.101 epicgames.com
-3.211.172.157 epicgames.com
-52.22.120.145 epicgames.com
+34.231.94.160 epicgames.com
+54.173.22.202 epicgames.com
 54.208.91.142 epicgames.com
-35.169.243.215 epicgames.com
-54.152.12.72 epicgames.com
-3.85.69.209 epicgames.com
-3.215.33.121 epicgames.com
-104.16.168.131 imgs.hcaptcha.com
+184.72.86.41 epicgames.com
+52.86.26.29 epicgames.com
+52.54.123.103 epicgames.com
+34.203.175.4 epicgames.com
+52.22.120.145 epicgames.com
 104.16.169.131 imgs.hcaptcha.com
+104.16.168.131 imgs.hcaptcha.com
 99.86.191.99 cdn.unrealengine.com
 23.220.129.36 cdn1.unrealengine.com
 23.220.129.36 cdn2.unrealengine.com
+52.86.239.19 tracking.epicgames.com
 52.0.87.47 tracking.epicgames.com
 54.158.144.182 tracking.epicgames.com
-34.233.40.105 tracking.epicgames.com
+52.205.156.230 tracking.epicgames.com
+50.17.163.132 tracking.epicgames.com
 34.200.138.209 tracking.epicgames.com
 54.208.149.123 tracking.epicgames.com
-50.17.163.132 tracking.epicgames.com
-52.86.239.19 tracking.epicgames.com
 52.71.127.80 tracking.epicgames.com
 104.16.169.131 newassets.hcaptcha.com
 104.16.168.131 newassets.hcaptcha.com
-52.85.131.91 media-cdn.epicgames.com
-52.85.131.73 media-cdn.epicgames.com
-52.85.131.113 media-cdn.epicgames.com
 52.85.131.89 media-cdn.epicgames.com
-104.103.48.214 store-content.ak.epicgames.com
+52.85.131.73 media-cdn.epicgames.com
+52.85.131.91 media-cdn.epicgames.com
+52.85.131.113 media-cdn.epicgames.com
+104.121.109.127 store-content.ak.epicgames.com
 2600:1408:8400:5a3::3b63 store-content.ak.epicgames.com
 2600:1408:8400:5a8::3b63 store-content.ak.epicgames.com
-23.220.129.36 static-assets-prod.epicgames.com
+23.62.17.170 static-assets-prod.epicgames.com
 104.103.48.214 talon-website-prod.ak.epicgames.com
 2600:1408:8400:5a8::3b63 talon-website-prod.ak.epicgames.com
 2600:1408:8400:5a3::3b63 talon-website-prod.ak.epicgames.com
-104.103.48.214 store-site-backend-static.ak.epicgames.com
-2600:1408:8400:5a3::3b63 store-site-backend-static.ak.epicgames.com
+104.121.109.127 store-site-backend-static.ak.epicgames.com
 2600:1408:8400:5a8::3b63 store-site-backend-static.ak.epicgames.com
-52.85.131.83 epic-social-social-modules-prod.ol.epicgames.com
-52.85.131.104 epic-social-social-modules-prod.ol.epicgames.com
-52.85.131.80 epic-social-social-modules-prod.ol.epicgames.com
-52.85.131.15 epic-social-social-modules-prod.ol.epicgames.com
+2600:1408:8400:5a3::3b63 store-site-backend-static.ak.epicgames.com
+13.249.38.56 epic-social-social-modules-prod.ol.epicgames.com
+13.249.38.45 epic-social-social-modules-prod.ol.epicgames.com
+13.249.38.12 epic-social-social-modules-prod.ol.epicgames.com
+13.249.38.23 epic-social-social-modules-prod.ol.epicgames.com
 104.103.48.214 assets-hcaptcha-proxy-service-prod.ak.epicgames.com
-2600:1408:8400:5a8::3b63 assets-hcaptcha-proxy-service-prod.ak.epicgames.com
 2600:1408:8400:5a3::3b63 assets-hcaptcha-proxy-service-prod.ak.epicgames.com
+2600:1408:8400:5a8::3b63 assets-hcaptcha-proxy-service-prod.ak.epicgames.com
 
-# Last update at 2021-07-03 15:46:14 (Beijing Time)
+# Last update at 2021-07-03 16:10:33 (Beijing Time)
 # Star me GitHub url: https://github.com/JohyC/GithubHosts
 # Hosts End 
 
