@@ -18,7 +18,7 @@
 
 ### python依赖
 
-python引入rich库，使用脚本前需 pip install rich；
+python引入rich库，使用脚本前需 pip install -r requirements；
 
 ### 命令介绍
 
