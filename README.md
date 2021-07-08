@@ -14,14 +14,24 @@
 
    - 编辑hosts直接映射GitHub域名到ip，从中间环节杜绝dns污染；
 
-## 脚本使用
+## 脚本介绍
 
-1. python引入rich库，使用脚本前需 pip install rich；
-2. python parsing_hosts.py -a domain domain ...
+### python依赖
+
+python引入rich库，使用脚本前需 pip install rich；
+
+### 命令介绍
+
+1. python ph.py -a domain domain ...
    -a命令，在默认domain列表后加入需要解析的域名；
-3. python parsing_hosts.py -d domain domain ...
+2. python ph.py -d domain domain ...
    -d命令，使用自定义域名替换默认解析列表；
-4. 脚本将在当前文件夹生成hosts.txt文件；
+3. python ph.py -f file
+   -f 命令，接收文本文件。
+   解析文本文件中的域名;
+
+以上命令将在当前文件夹中生成hosts.txt文件。
+使用 -o 命令自定义输出文件名；（-o outputFile）
 
 ## hosts
 
@@ -45,7 +55,7 @@
 - 手动修改 hosts 文件；
   - Windows 打开 C:\Windows\System32\drivers\etc 文件夹；
     - 右键 hosts 文件，打开方式中选择记事本或其他文本工具，复制仓库中的hosts文件内容至最后；
-  - Linux 请自行谷歌.......
+  - Linux || mac 请自行谷歌.......
 
 修改hosts文件完成后 win10 请使用 ipconfig /flushdns 刷新dns缓存；
 
