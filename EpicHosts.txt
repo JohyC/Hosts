@@ -1,0 +1,69 @@
+# Hosts Start 
+104.16.169.131                 hcaptcha.com
+104.16.168.131                 hcaptcha.com
+52.20.213.101                  epicgames.com
+54.146.195.75                  epicgames.com
+34.203.175.4                   epicgames.com
+52.20.16.61                    epicgames.com
+3.209.208.106                  epicgames.com
+52.5.156.233                   epicgames.com
+52.54.123.103                  epicgames.com
+54.208.16.199                  epicgames.com
+104.16.168.131                 imgs.hcaptcha.com
+104.16.169.131                 imgs.hcaptcha.com
+99.86.191.99                   cdn.unrealengine.com
+23.2.73.27                     cdn1.unrealengine.com
+23.2.73.27                     cdn2.unrealengine.com
+23.6.136.9                     docs.unrealengine.com
+99.84.167.37                   download.epicgames.com
+54.210.143.85                  tracking.epicgames.com
+34.197.22.5                    tracking.epicgames.com
+52.86.239.19                   tracking.epicgames.com
+104.16.169.131                 newassets.hcaptcha.com
+104.16.168.131                 newassets.hcaptcha.com
+52.85.74.64                    download2.epicgames.com
+99.86.57.35                    download3.epicgames.com
+99.84.210.38                   download4.epicgames.com
+52.85.132.25                   media-cdn.epicgames.com
+52.85.132.103                  media-cdn.epicgames.com
+52.85.132.124                  media-cdn.epicgames.com
+52.85.132.115                  media-cdn.epicgames.com
+99.86.230.25                   store-launcher.epicgames.com
+99.86.230.81                   store-launcher.epicgames.com
+99.86.230.85                   store-launcher.epicgames.com
+99.86.230.114                  store-launcher.epicgames.com
+104.78.224.26                  store-content.ak.epicgames.com
+2600:1407:e800:685::3b63       store-content.ak.epicgames.com
+2600:1407:e800:68d::3b63       store-content.ak.epicgames.com
+23.2.73.27                     static-assets-prod.epicgames.com
+184.25.119.46                  epicgames-download1.akamaized.net
+184.25.119.20                  epicgames-download1.akamaized.net
+104.78.224.26                  talon-website-prod.ak.epicgames.com
+2600:1407:e800:685::3b63       talon-website-prod.ak.epicgames.com
+2600:1407:e800:68d::3b63       talon-website-prod.ak.epicgames.com
+104.78.224.26                  store-site-backend-static.ak.epicgames.com
+2600:1407:e800:685::3b63       store-site-backend-static.ak.epicgames.com
+2600:1407:e800:68d::3b63       store-site-backend-static.ak.epicgames.com
+34.230.187.218                 account-public-service-prod03.ol.epicgames.com
+34.234.9.227                   account-public-service-prod03.ol.epicgames.com
+50.16.67.103                   account-public-service-prod03.ol.epicgames.com
+52.3.125.122                   account-public-service-prod03.ol.epicgames.com
+100.24.172.125                 account-public-service-prod03.ol.epicgames.com
+52.4.93.139                    account-public-service-prod03.ol.epicgames.com
+34.225.79.76                   account-public-service-prod03.ol.epicgames.com
+34.196.109.14                  account-public-service-prod03.ol.epicgames.com
+13.33.165.76                   epic-social-social-modules-prod.ol.epicgames.com
+13.33.165.126                  epic-social-social-modules-prod.ol.epicgames.com
+13.33.165.32                   epic-social-social-modules-prod.ol.epicgames.com
+13.33.165.52                   epic-social-social-modules-prod.ol.epicgames.com
+52.22.147.232                  eulatracking-public-service-prod06.ol.epicgames.com
+34.235.30.140                  eulatracking-public-service-prod06.ol.epicgames.com
+104.78.224.26                  assets-hcaptcha-proxy-service-prod.ak.epicgames.com
+2600:1407:e800:685::3b63       assets-hcaptcha-proxy-service-prod.ak.epicgames.com
+2600:1407:e800:68d::3b63       assets-hcaptcha-proxy-service-prod.ak.epicgames.com
+124.156.126.32                 weighted-zh-eulatracking-public-service-prod06.ol.epicgames.com
+
+# Last update at 2021-07-09 20:03:08 (Beijing Time)
+# Star me GitHub url: https://github.com/JohyC/GithubHosts
+# Hosts End 
+
