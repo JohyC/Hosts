@@ -16,99 +16,23 @@ from rich.console import Console
 console = Console()
 
 parser = argparse.ArgumentParser(description='Parse the github domain to get ip, or parse given domain.')
-parser.add_argument('-d','--domains',nargs='*',help = 'input one domain to be parse')
-parser.add_argument('-a','--add',nargs='*',help = 'add domain to be parse list')
-parser.add_argument('-f','--file',nargs='?',type=argparse.FileType('r'),help='give me a file here!')
+parser.add_argument('-d','--domains',nargs='*',help = 'input domain to be parse')
+parser.add_argument('-f','--file',nargs='*',type=argparse.FileType('r'),help='give me a file here!')
 parser.add_argument('-o','--output',nargs=1,type=str,help='output name')
 args = parser.parse_args()
 
-domains = [
-    'github.com',
-    'github.blog',
-    'githubapp.com',
-    'api.github.com',
-    'raw.github.com',
-    'gist.github.com',
-    'octocaptcha.com',
-    'help.github.com',
-    'live.github.com',
-    'github.community',
-    'githubstatus.com',
-    'pages.github.com',
-    'status.github.com',
-    'uploads.github.com',
-    'nodeload.github.com',
-    'training.github.com',
-    'codeload.github.com',
-    'assets-cdn.github.com',
-    'github.githubassets.com',
-    'documentcloud.github.com',
-    'raw.githubusercontent.com',
-    'gist.githubusercontent.com',
-    'camo.githubusercontent.com',
-    'cloud.githubusercontent.com',
-    'media.githubusercontent.com',
-    'github-com.s3.amazonaws.com',
-    'github.global.ssl.fastly.net',
-    'desktop.githubusercontent.com',
-    'github-cloud.s3.amazonaws.com',
-    'avatars.githubusercontent.com',
-    'favicons.githubusercontent.com',
-    'avatars0.githubusercontent.com',
-    'avatars1.githubusercontent.com',
-    'avatars2.githubusercontent.com',
-    'avatars3.githubusercontent.com',
-    'avatars4.githubusercontent.com',
-    'avatars5.githubusercontent.com',
-    'avatars6.githubusercontent.com',
-    'avatars7.githubusercontent.com',
-    'avatars8.githubusercontent.com',
-    'customer-stories-feed.github.com',
-    'user-images.githubusercontent.com',
-    'repository-images.githubusercontent.com',
-    'marketplace-screenshots.githubusercontent.com',
-    'github-production-user-asset-6210df.s3.amazonaws.com',
-    'github-production-release-asset-2e65be.s3.amazonaws.com',
-    'github-production-repository-file-5c1aeb.s3.amazonaws.com',
-    'hcaptcha.com',
-    'epicgames.com',
-    'imgs.hcaptcha.com',
-    'cdn.unrealengine.com',
-    'cdn1.unrealengine.com',
-    'cdn2.unrealengine.com',
-    'docs.unrealengine.com',
-    'download.epicgames.com',
-    'tracking.epicgames.com',
-    'newassets.hcaptcha.com',
-    'download2.epicgames.com',
-    'download3.epicgames.com',
-    'download4.epicgames.com',
-    'media-cdn.epicgames.com',
-    'store-launcher.epicgames.com',
-    'store-content.ak.epicgames.com',
-    'static-assets-prod.epicgames.com',
-    'epicgames-download1.akamaized.net',
-    'talon-website-prod.ak.epicgames.com',
-    'store-site-backend-static.ak.epicgames.com',
-    'account-public-service-prod03.ol.epicgames.com',
-    'epic-social-social-modules-prod.ol.epicgames.com',
-    'eulatracking-public-service-prod06.ol.epicgames.com',
-    'assets-hcaptcha-proxy-service-prod.ak.epicgames.com',
-    'weighted-zh-eulatracking-public-service-prod06.ol.epicgames.com',
-]
+domains = []
 name = "hosts.txt"
 
 if args.output:
   name = args.output[0]
 
 if args.domains:
-  domains = args.domains
-elif args.add:
-  for list in args.add:
-    console.print(list)
-    domains.append(list)
+  for domain in args.domains:
+    domains.append(domain)
 elif args.file:
-  domains = args.file
+  for f in args.file:
+    domains.extend(f.readlines())
         
 def get_ip_list(domain): # 获取域名解析出的IP列表
   ip_list = []
