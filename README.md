@@ -63,6 +63,9 @@ python引入rich库，使用脚本前需 pip install -r requirements；
    - URL 地址：https://www.suni.cf:8880/Hosts/hosts.txt (url: 推荐用服务器地址，国内同步更稳定)
    - 自动更新：24小时 （hosts地址变更不会特别频繁）
 
+![image](https://user-images.githubusercontent.com/38210128/127502984-7ef25b7c-1901-4164-ab29-e5dbc487e63d.png)
+
+
 ### 手动配置hosts
 
 #### macOS
