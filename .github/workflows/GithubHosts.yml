@@ -32,7 +32,7 @@ jobs:
         if [ -f requirements ]; then pip install -r requirements; fi
         
     - name: update hosts
-      run: sh Hosts.sh && sh EpicHosts.sh && sh GithubHosts.sh
+      run: sh Hosts.sh && sh EpicHosts.sh && sh GithubHosts.sh && sh SteamDomains.sh
     - name: commit
       id: commit
       run: |
