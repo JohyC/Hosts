@@ -45,8 +45,9 @@ python引入rich库，使用脚本前需 pip install -r requirements；
 2. Gitee    https://gitee.com/yuchi-shentang/GithubHosts/blob/main/hosts.txt
 3. 私人服务器 
    - hosts:        		 https://www.suni.cf:8880/Hosts/hosts.txt 
-   - GithubHosts:    https://www.suni.cf:8880/Hosts/GithubHosts.txt
-   - EpicHosts:        https://www.suni.cf:8880/Hosts/EpicHosts.txt
+   - GithubHosts:        https://www.suni.cf:8880/Hosts/GithubHosts.txt
+   - EpicHosts:          https://www.suni.cf:8880/Hosts/EpicHosts.txt
+   - SteamDomains:       https://www.suni.cf:8880/Hosts/SteamDomains.txt
 
 ## 使用方式
 
