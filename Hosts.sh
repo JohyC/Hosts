@@ -1,2 +1,2 @@
 #!/bin/bash!bash
-python ph.py -f GithubDomains EpicDomains -o hosts.txt
+python ph.py -f SteamDomains GithubDomains EpicDomains -o hosts.txt
