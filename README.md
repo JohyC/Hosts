@@ -39,12 +39,12 @@ python引入rich库，使用脚本前需 pip install -r requirements；
 
 2. Gitee    https://gitee.com/yuchi-shentang/GithubHosts/blob/main/hosts.txt
 
-3. Gitea    https://www.skydreve.cf:3000/Johy/Hosts/raw/branch/main/hosts.txt
+3. Gitea    https://www.foul.trade:3000/Johy/Hosts/raw/branch/main/hosts.txt
 
 4. ~~服务器~~  由于安全问题，不再提供服务链接，请使用gitea链接同步；
    
 ### 仓库同步地址
-1. gitea https://www.skydreve.cf:3000/Johy/Hosts
+1. gitea https://www.foul.trade:3000/Johy/Hosts
 2. gitee https://gitee.com/yuchi-shentang/GithubHosts
 
 ## 使用方式
@@ -59,7 +59,7 @@ python引入rich库，使用脚本前需 pip install -r requirements；
 2. 规则配置：
    - 方案名：Johy/hosts (自行命名)
    - 类型：远程
-   - URL 地址：https://www.skydreve.cf:3000/Johy/Hosts/raw/branch/main/hosts.txt (url: 推荐地址，国内同步更稳定)
+   - URL 地址：https://www.foul.trade:3000/Johy/Hosts/raw/branch/main/hosts.txt (url: 推荐地址，国内同步更稳定)
    - 自动更新：24小时 （hosts地址变更不会特别频繁）
 
 ![image](https://user-images.githubusercontent.com/38210128/127502984-7ef25b7c-1901-4164-ab29-e5dbc487e63d.png)
