@@ -1,5 +1,15 @@
 # Hosts
 
+## 提示
+
+由于最近steam被工信部拉黑了。直接改Hosts文件可能作用不大；需要配合一下措施！
+
+1. 在steam启动快捷方式上右键打开属性；
+2. 在属性 --> 快捷方式 --> 目标 尾部加上参数 ' -tcp' or '-websocket';(参数前必须预留一个空格) 一下图为例:
+
+![image](https://user-images.githubusercontent.com/38210128/165656916-1866dd64-a836-48f1-a95a-80dd9f49cb25.png)
+
+
 ## 项目介绍
 
 1. 目标：
