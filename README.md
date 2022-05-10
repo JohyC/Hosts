@@ -25,6 +25,8 @@ python引入rich库，使用脚本前需 pip install -r requirements；
 
 ### 命令介绍
 
+cd 至 workingDir 文件夹后 执行以下操作；
+
 1. python ph.py -a domain domain ...
    -a命令，在默认domain列表后加入需要解析的域名；
 2. python ph.py -d domain domain ...
