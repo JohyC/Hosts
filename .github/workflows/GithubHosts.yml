@@ -57,7 +57,7 @@ jobs:
         branch: ${{ github.ref }}
 
     # 同步代码到gitee；
-    - name: Mirror the GithubHosts repos to Gitee
+    - name: Mirror the Hosts repos to Gitee
       uses: Yikun/hub-mirror-action@master
       with:
         src: github/JohyC
@@ -66,7 +66,7 @@ jobs:
         dst_token: ${{ secrets.GITEE_TOKEN }}
         account_type: user
         force_update: true
-        static_list: GithubHosts
+        static_list: Hosts
 
     # 传送hosts文件到私人服务器；解决gitee违规问题；
     # - name: put hosts to private
