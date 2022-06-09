@@ -42,7 +42,7 @@ def get_ip_list(domain): # 获取域名解析出的IP列表
       if item[4][0] not in ip_list:
         ip_list.append(item[4][0])
   except Exception:
-    ip_list.append('No resolution for '+domain)
+    ip_list.append('# No resolution for '+domain)
     pass
   return ip_list
 
