@@ -1,32 +1,29 @@
 # Hosts Start 
 103.224.182.253                kamaihd.net
-104.96.246.161                 steamgames.com
+104.127.164.34                 steamgames.com
 104.127.164.34                 steampowered.com
-104.96.251.186                 steamcommunity.com
-23.222.5.79                    cdn.steampowered.com
-23.222.5.72                    cdn.steampowered.com
-104.96.251.186                 api.steampowered.com
-23.222.5.72                    cdn.steampowered.com
-23.222.5.79                    cdn.steampowered.com
-104.96.251.186                 help.steampowered.com
+104.127.176.51                 steamcommunity.com
+23.44.133.181                  cdn.steampowered.com
+23.44.133.183                  cdn.steampowered.com
+104.127.176.51                 api.steampowered.com
+23.44.133.183                  cdn.steampowered.com
+23.44.133.181                  cdn.steampowered.com
+104.127.176.51                 help.steampowered.com
+198.49.23.145                  steampoweredmedia.com
 198.185.159.145                steampoweredmedia.com
 198.49.23.144                  steampoweredmedia.com
-198.49.23.145                  steampoweredmedia.com
 198.185.159.144                steampoweredmedia.com
-23.198.214.144                 cdn.steamcommunity.com
-23.198.214.154                 cdn.steamcommunity.com
-23.222.5.142                   media.steampowered.com
-23.222.5.140                   media.steampowered.com
+23.218.218.27                  cdn.steamcommunity.com
+23.218.218.12                  cdn.steamcommunity.com
+23.44.136.176                  media.steampowered.com
+23.44.136.154                  media.steampowered.com
 23.50.124.114                  store.steampowered.com
-23.222.5.140                   cdn.akamai.steamstatic.com
-23.222.5.142                   cdn.akamai.steamstatic.com
-23.222.5.142                   cdn.store.steampowered.com
-23.222.5.132                   cdn.store.steampowered.com
-218.76.79.40                   store.st.dl.bscstorage.net
-116.253.28.176                 store.st.dl.bscstorage.net
-220.185.166.250                store.st.dl.bscstorage.net
+23.218.218.21                  cdn.akamai.steamstatic.com
+23.218.218.9                   cdn.akamai.steamstatic.com
+23.218.218.5                   cdn.store.steampowered.com
+23.218.218.10                  cdn.store.steampowered.com
+36.25.241.125                  store.st.dl.bscstorage.net
 140.249.90.171                 store.st.dl.bscstorage.net
-123.96.95.71                   store.st.dl.bscstorage.net
 113.250.82.27                  store.st.dl.bscstorage.net
 218.76.79.43                   store.st.dl.bscstorage.net
 116.253.28.174                 store.st.dl.bscstorage.net
@@ -35,17 +32,20 @@
 116.253.28.173                 store.st.dl.bscstorage.net
 220.185.166.251                store.st.dl.bscstorage.net
 113.250.82.28                  store.st.dl.bscstorage.net
-104.96.246.161                 storefront.steampowered.com
+218.76.79.40                   store.st.dl.bscstorage.net
+116.253.28.176                 store.st.dl.bscstorage.net
+220.185.166.250                store.st.dl.bscstorage.net
+104.127.164.34                 storefront.steampowered.com
 # No resolution for store.st.dl.pinyuncloud.com store.st.dl.pinyuncloud.com
 # No resolution for media.st.dl.pinyuncloud.com media.st.dl.pinyuncloud.com
-23.12.146.157                  store.akamai.steamstatic.com
-23.12.146.164                  store.akamai.steamstatic.com
-23.222.5.154                   steamcommunity-a.akamaihd.net
-23.222.5.143                   steamcommunity-a.akamaihd.net
-23.222.5.154                   community.akamai.steamstatic.com
-23.222.5.143                   community.akamai.steamstatic.com
+23.46.156.175                  store.akamai.steamstatic.com
+23.46.156.153                  store.akamai.steamstatic.com
+23.218.218.12                  steamcommunity-a.akamaihd.net
+23.218.218.27                  steamcommunity-a.akamaihd.net
+23.55.220.145                  community.akamai.steamstatic.com
+23.55.220.160                  community.akamai.steamstatic.com
 
-# Last update at 2022-06-30 20:48:36 (Beijing Time)
+# Last update at 2022-07-01 02:31:51 (Beijing Time)
 # Star me GitHub url: https://github.com/JohyC/Hosts
 # Hosts End 
 
