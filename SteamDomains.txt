@@ -1,29 +1,27 @@
 # Hosts Start 
 103.224.182.253                kamaihd.net
-104.127.164.34                 steamgames.com
-104.127.164.34                 steampowered.com
-104.127.176.51                 steamcommunity.com
-23.222.5.72                    cdn.steampowered.com
-23.222.5.79                    cdn.steampowered.com
-104.102.129.112                api.steampowered.com
-23.222.5.79                    cdn.steampowered.com
-23.222.5.72                    cdn.steampowered.com
-104.102.129.112                help.steampowered.com
-198.185.159.144                steampoweredmedia.com
+96.6.188.63                    steamgames.com
+96.6.188.63                    steampowered.com
+96.6.190.4                     steamcommunity.com
+23.218.224.145                 cdn.steampowered.com
+23.218.224.150                 cdn.steampowered.com
+96.6.190.4                     api.steampowered.com
+23.218.224.150                 cdn.steampowered.com
+23.218.224.145                 cdn.steampowered.com
+96.6.190.4                     help.steampowered.com
 198.49.23.144                  steampoweredmedia.com
 198.185.159.145                steampoweredmedia.com
 198.49.23.145                  steampoweredmedia.com
-23.205.104.54                  cdn.steamcommunity.com
-23.205.104.56                  cdn.steamcommunity.com
-23.218.218.9                   media.steampowered.com
-23.218.218.21                  media.steampowered.com
-23.50.124.114                  store.steampowered.com
-23.205.104.12                  cdn.akamai.steamstatic.com
-23.205.104.51                  cdn.akamai.steamstatic.com
-23.205.104.59                  cdn.store.steampowered.com
-23.205.104.21                  cdn.store.steampowered.com
-218.76.79.43                   store.st.dl.bscstorage.net
-116.253.28.174                 store.st.dl.bscstorage.net
+198.185.159.144                steampoweredmedia.com
+23.64.115.73                   cdn.steamcommunity.com
+23.64.115.80                   cdn.steamcommunity.com
+23.64.115.84                   media.steampowered.com
+23.64.115.83                   media.steampowered.com
+23.38.184.113                  store.steampowered.com
+23.64.115.84                   cdn.akamai.steamstatic.com
+23.64.115.83                   cdn.akamai.steamstatic.com
+23.64.115.85                   cdn.store.steampowered.com
+23.64.115.87                   cdn.store.steampowered.com
 220.185.166.252                store.st.dl.bscstorage.net
 218.76.79.41                   store.st.dl.bscstorage.net
 116.253.28.173                 store.st.dl.bscstorage.net
@@ -35,17 +33,19 @@
 115.238.202.217                store.st.dl.bscstorage.net
 140.249.90.171                 store.st.dl.bscstorage.net
 113.250.82.27                  store.st.dl.bscstorage.net
-104.127.164.34                 storefront.steampowered.com
+218.76.79.43                   store.st.dl.bscstorage.net
+116.253.28.174                 store.st.dl.bscstorage.net
+96.6.188.63                    storefront.steampowered.com
 # No resolution for store.st.dl.pinyuncloud.com store.st.dl.pinyuncloud.com
 # No resolution for media.st.dl.pinyuncloud.com media.st.dl.pinyuncloud.com
-23.222.5.216                   store.akamai.steamstatic.com
-23.222.5.212                   store.akamai.steamstatic.com
-23.205.104.56                  steamcommunity-a.akamaihd.net
-23.205.104.54                  steamcommunity-a.akamaihd.net
-23.218.218.27                  community.akamai.steamstatic.com
-23.218.218.12                  community.akamai.steamstatic.com
+23.64.115.85                   store.akamai.steamstatic.com
+23.64.115.87                   store.akamai.steamstatic.com
+23.64.115.80                   steamcommunity-a.akamaihd.net
+23.64.115.73                   steamcommunity-a.akamaihd.net
+23.64.115.80                   community.akamai.steamstatic.com
+23.64.115.73                   community.akamai.steamstatic.com
 
-# Last update at 2022-07-05 20:47:10 (Beijing Time)
+# Last update at 2022-07-06 02:28:34 (Beijing Time)
 # Star me GitHub url: https://github.com/JohyC/Hosts
 # Hosts End 
 
