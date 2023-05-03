@@ -1,45 +1,45 @@
 # Hosts Start 
 103.224.182.253                kamaihd.net
-23.223.178.78                  steamgames.com
-23.223.178.78                  steampowered.com
-23.196.37.224                  steamcommunity.com
-104.123.71.252                 cdn.steampowered.com
-104.123.71.244                 cdn.steampowered.com
-23.196.37.224                  api.steampowered.com
-104.123.71.244                 cdn.steampowered.com
-104.123.71.252                 cdn.steampowered.com
-23.196.37.224                  help.steampowered.com
+104.82.44.238                  steamgames.com
+104.82.44.238                  steampowered.com
+104.82.45.217                  steamcommunity.com
+104.99.238.107                 cdn.steampowered.com
+104.99.238.74                  cdn.steampowered.com
+104.82.45.217                  api.steampowered.com
+104.99.238.74                  cdn.steampowered.com
+104.99.238.107                 cdn.steampowered.com
+104.82.45.217                  help.steampowered.com
 198.185.159.144                steampoweredmedia.com
 198.49.23.145                  steampoweredmedia.com
-198.185.159.145                steampoweredmedia.com
 198.49.23.144                  steampoweredmedia.com
-23.192.228.142                 cdn.steamcommunity.com
-23.192.228.145                 cdn.steamcommunity.com
-23.67.33.86                    media.steampowered.com
-23.67.33.96                    media.steampowered.com
+198.185.159.145                steampoweredmedia.com
+23.67.33.103                   cdn.steamcommunity.com
+23.67.33.77                    cdn.steamcommunity.com
+23.67.33.142                   media.steampowered.com
+23.67.33.150                   media.steampowered.com
 96.16.69.78                    store.steampowered.com
-23.218.80.184                  cdn.akamai.steamstatic.com
-184.25.56.101                  cdn.akamai.steamstatic.com
-23.218.80.168                  cdn.store.steampowered.com
-184.25.56.130                  cdn.store.steampowered.com
+23.67.33.142                   cdn.akamai.steamstatic.com
+23.67.33.150                   cdn.akamai.steamstatic.com
+23.192.228.148                 cdn.store.steampowered.com
+23.192.228.152                 cdn.store.steampowered.com
+113.240.98.41                  store.st.dl.bscstorage.net
+180.127.43.132                 store.st.dl.bscstorage.net
+113.240.98.40                  store.st.dl.bscstorage.net
+140.249.147.215                store.st.dl.bscstorage.net
 182.242.61.232                 store.st.dl.bscstorage.net
 182.242.61.231                 store.st.dl.bscstorage.net
-113.240.98.41                  store.st.dl.bscstorage.net
 182.242.61.233                 store.st.dl.bscstorage.net
-140.249.147.215                store.st.dl.bscstorage.net
-113.240.98.40                  store.st.dl.bscstorage.net
-180.127.43.132                 store.st.dl.bscstorage.net
-23.223.178.78                  storefront.steampowered.com
+104.82.44.238                  storefront.steampowered.com
 # No resolution for store.st.dl.pinyuncloud.com store.st.dl.pinyuncloud.com
 # No resolution for media.st.dl.pinyuncloud.com media.st.dl.pinyuncloud.com
-23.218.80.168                  store.akamai.steamstatic.com
-184.25.56.130                  store.akamai.steamstatic.com
-23.218.80.185                  steamcommunity-a.akamaihd.net
-184.25.56.109                  steamcommunity-a.akamaihd.net
-23.192.228.142                 community.akamai.steamstatic.com
-23.192.228.145                 community.akamai.steamstatic.com
+23.67.33.145                   store.akamai.steamstatic.com
+23.67.33.132                   store.akamai.steamstatic.com
+23.67.33.77                    steamcommunity-a.akamaihd.net
+23.67.33.103                   steamcommunity-a.akamaihd.net
+23.67.33.154                   community.akamai.steamstatic.com
+23.67.33.141                   community.akamai.steamstatic.com
 
-# Last update at 2023-05-03 02:22:05 (Beijing Time)
+# Last update at 2023-05-03 09:26:05 (Beijing Time)
 # Star me GitHub url: https://github.com/JohyC/Hosts
 # Hosts End 
 
