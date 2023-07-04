@@ -1,45 +1,45 @@
 # Hosts Start 
 103.224.182.253                kamaihd.net
-104.127.80.173                 steamgames.com
-104.127.80.173                 steampowered.com
-104.127.87.210                 steamcommunity.com
-23.222.5.72                    cdn.steampowered.com
-23.222.5.79                    cdn.steampowered.com
-104.127.87.210                 api.steampowered.com
-23.222.5.79                    cdn.steampowered.com
-23.222.5.72                    cdn.steampowered.com
-104.127.87.210                 help.steampowered.com
-198.49.23.144                  steampoweredmedia.com
+23.74.145.194                  steamgames.com
+23.78.64.40                    steampowered.com
+23.78.116.231                  steamcommunity.com
+23.47.48.98                    cdn.steampowered.com
+23.47.48.121                   cdn.steampowered.com
+23.7.179.224                   api.steampowered.com
+23.47.48.121                   cdn.steampowered.com
+23.47.48.98                    cdn.steampowered.com
+23.74.148.253                  help.steampowered.com
+198.49.23.145                  steampoweredmedia.com
 198.185.159.144                steampoweredmedia.com
 198.185.159.145                steampoweredmedia.com
-198.49.23.145                  steampoweredmedia.com
-23.222.12.56                   cdn.steamcommunity.com
-23.222.12.35                   cdn.steamcommunity.com
-23.222.12.51                   media.steampowered.com
-23.222.12.41                   media.steampowered.com
-104.87.84.91                   store.steampowered.com
-104.96.220.113                 cdn.akamai.steamstatic.com
-104.96.220.106                 cdn.akamai.steamstatic.com
-23.40.62.75                    cdn.store.steampowered.com
-23.40.62.83                    cdn.store.steampowered.com
+198.49.23.144                  steampoweredmedia.com
+104.117.247.42                 cdn.steamcommunity.com
+104.117.247.104                cdn.steamcommunity.com
+184.28.41.22                   media.steampowered.com
+184.28.41.36                   media.steampowered.com
+96.7.168.77                    store.steampowered.com
+104.117.247.24                 cdn.akamai.steamstatic.com
+104.117.247.50                 cdn.akamai.steamstatic.com
+104.117.247.105                cdn.store.steampowered.com
+104.117.247.25                 cdn.store.steampowered.com
+140.249.147.250                store.st.dl.bscstorage.net
 140.249.147.251                store.st.dl.bscstorage.net
+182.242.61.233                 store.st.dl.bscstorage.net
+120.226.43.253                 store.st.dl.bscstorage.net
 113.240.98.40                  store.st.dl.bscstorage.net
 119.39.154.253                 store.st.dl.bscstorage.net
-182.242.61.233                 store.st.dl.bscstorage.net
-140.249.147.250                store.st.dl.bscstorage.net
-120.226.43.253                 store.st.dl.bscstorage.net
 113.240.98.41                  store.st.dl.bscstorage.net
-104.127.80.173                 storefront.steampowered.com
+23.74.145.194                  storefront.steampowered.com
 # No resolution for store.st.dl.pinyuncloud.com store.st.dl.pinyuncloud.com
 # No resolution for media.st.dl.pinyuncloud.com media.st.dl.pinyuncloud.com
-23.222.12.43                   store.akamai.steamstatic.com
-23.222.12.49                   store.akamai.steamstatic.com
-23.222.12.35                   steamcommunity-a.akamaihd.net
-23.222.12.56                   steamcommunity-a.akamaihd.net
-23.40.62.19                    community.akamai.steamstatic.com
-23.40.62.48                    community.akamai.steamstatic.com
+104.117.247.25                 store.akamai.steamstatic.com
+104.117.247.105                store.akamai.steamstatic.com
+104.117.247.42                 steamcommunity-a.akamaihd.net
+104.117.247.104                steamcommunity-a.akamaihd.net
+184.28.41.20                   community.akamai.steamstatic.com
+184.28.41.31                   community.akamai.steamstatic.com
 
-# Last update at 2023-07-04 20:41:03 (Beijing Time)
+# Last update at 2023-07-05 02:26:01 (Beijing Time)
 # Star me GitHub url: https://github.com/JohyC/Hosts
 # Hosts End 
 
