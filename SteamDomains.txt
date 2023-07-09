@@ -1,45 +1,45 @@
 # Hosts Start 
 103.224.182.253                kamaihd.net
-104.67.205.240                 steamgames.com
-104.67.205.240                 steampowered.com
-104.67.208.180                 steamcommunity.com
-23.47.48.98                    cdn.steampowered.com
-23.47.48.121                   cdn.steampowered.com
-104.67.208.180                 api.steampowered.com
-23.47.48.98                    cdn.steampowered.com
-23.47.48.121                   cdn.steampowered.com
-104.67.208.180                 help.steampowered.com
+23.1.198.56                    steamgames.com
+23.1.198.56                    steampowered.com
+104.102.129.112                steamcommunity.com
+23.222.5.79                    cdn.steampowered.com
+23.222.5.72                    cdn.steampowered.com
+104.102.129.112                api.steampowered.com
+23.222.5.72                    cdn.steampowered.com
+23.222.5.79                    cdn.steampowered.com
+104.102.129.112                help.steampowered.com
 198.185.159.144                steampoweredmedia.com
 198.49.23.144                  steampoweredmedia.com
 198.185.159.145                steampoweredmedia.com
 198.49.23.145                  steampoweredmedia.com
-184.28.41.149                  cdn.steamcommunity.com
-184.28.41.139                  cdn.steamcommunity.com
-23.205.109.68                  media.steampowered.com
-23.205.109.82                  media.steampowered.com
-96.7.168.77                    store.steampowered.com
-184.28.41.137                  cdn.akamai.steamstatic.com
-184.28.41.139                  cdn.akamai.steamstatic.com
-23.205.109.85                  cdn.store.steampowered.com
-23.205.109.86                  cdn.store.steampowered.com
-140.249.147.250                store.st.dl.bscstorage.net
-119.39.154.253                 store.st.dl.bscstorage.net
-140.249.147.251                store.st.dl.bscstorage.net
+23.222.12.16                   cdn.steamcommunity.com
+23.222.12.35                   cdn.steamcommunity.com
+23.222.12.41                   media.steampowered.com
+23.222.12.51                   media.steampowered.com
+104.87.84.91                   store.steampowered.com
+23.218.218.22                  cdn.akamai.steamstatic.com
+23.218.218.19                  cdn.akamai.steamstatic.com
+23.40.62.75                    cdn.store.steampowered.com
+23.40.62.83                    cdn.store.steampowered.com
+113.240.98.41                  store.st.dl.bscstorage.net
 113.240.98.40                  store.st.dl.bscstorage.net
 182.242.61.233                 store.st.dl.bscstorage.net
+119.39.154.253                 store.st.dl.bscstorage.net
+140.249.147.250                store.st.dl.bscstorage.net
 120.226.43.253                 store.st.dl.bscstorage.net
-113.240.98.41                  store.st.dl.bscstorage.net
-104.67.205.240                 storefront.steampowered.com
+140.249.147.251                store.st.dl.bscstorage.net
+23.1.198.56                    storefront.steampowered.com
 # No resolution for store.st.dl.pinyuncloud.com store.st.dl.pinyuncloud.com
 # No resolution for media.st.dl.pinyuncloud.com media.st.dl.pinyuncloud.com
-23.205.109.85                  store.akamai.steamstatic.com
-23.205.109.86                  store.akamai.steamstatic.com
-184.28.41.139                  steamcommunity-a.akamaihd.net
-184.28.41.149                  steamcommunity-a.akamaihd.net
-23.205.109.72                  community.akamai.steamstatic.com
-23.205.109.77                  community.akamai.steamstatic.com
+23.222.12.18                   store.akamai.steamstatic.com
+23.222.12.43                   store.akamai.steamstatic.com
+23.222.12.16                   steamcommunity-a.akamaihd.net
+23.222.12.35                   steamcommunity-a.akamaihd.net
+23.40.62.19                    community.akamai.steamstatic.com
+23.40.62.48                    community.akamai.steamstatic.com
 
-# Last update at 2023-07-09 10:02:10 (Beijing Time)
+# Last update at 2023-07-09 14:24:04 (Beijing Time)
 # Star me GitHub url: https://github.com/JohyC/Hosts
 # Hosts End 
 
