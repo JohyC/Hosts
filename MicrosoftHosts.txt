@@ -1,58 +1,61 @@
 # Hosts Start 
-20.190.151.8                   login.live.com
-20.190.151.133                 login.live.com
-20.190.151.7                   login.live.com
-20.190.151.67                  login.live.com
-20.190.151.68                  login.live.com
-20.190.151.134                 login.live.com
-20.190.151.69                  login.live.com
 20.190.151.9                   login.live.com
+20.190.151.70                  login.live.com
+20.190.151.69                  login.live.com
+20.190.151.131                 login.live.com
+20.190.151.133                 login.live.com
+20.190.151.8                   login.live.com
+20.190.151.7                   login.live.com
+20.190.151.134                 login.live.com
 13.107.42.22                   account.live.com
 2620:1ec:21::22                account.live.com
 # No resolution for livefilestore.com livefilestore.com
 13.107.42.12                   docs.live.net
 13.107.42.13                   onedrive.live.com
-40.90.133.112                  skyapi.live.net
-40.90.133.112                  skyapi.onedrive.live.com
-104.100.53.136                 l.live.net
+20.135.6.5                     skyapi.live.net
+20.135.4.166                   skyapi.onedrive.live.com
+23.5.242.75                    l.live.net
 13.107.42.12                   api.onedrive.com
 # No resolution for users.storage.live.com users.storage.live.com
-40.90.133.112                  storage.live.com
+40.79.207.82                   storage.live.com
 13.107.246.71                  logincdn.msauth.net
 13.107.213.71                  logincdn.msauth.net
-2620:1ec:bdf::71               logincdn.msauth.net
 2620:1ec:46::71                logincdn.msauth.net
+2620:1ec:bdf::71               logincdn.msauth.net
 13.107.213.71                  acctcdn.msauth.net
 13.107.246.71                  acctcdn.msauth.net
 2620:1ec:46::71                acctcdn.msauth.net
 2620:1ec:bdf::71               acctcdn.msauth.net
 # No resolution for progdownload.zune.net progdownload.zune.net
-23.49.0.6                      gameclipscontent-d2009.xboxlive.com
-2600:1404:ec00:593::57         gameclipscontent-d2009.xboxlive.com
+23.47.180.50                   gameclipscontent-d2009.xboxlive.com
 2600:1404:ec00:58f::57         gameclipscontent-d2009.xboxlive.com
-23.67.33.143                   images-eds.xboxlive.com
-23.67.33.140                   images-eds.xboxlive.com
+2600:1404:ec00:584::57         gameclipscontent-d2009.xboxlive.com
+104.99.238.24                  images-eds.xboxlive.com
+104.99.238.27                  images-eds.xboxlive.com
 2600:1404:ec00:4a::17dc:6694   images-eds.xboxlive.com
 2600:1404:ec00:4a::17dc:6698   images-eds.xboxlive.com
-96.16.55.172                   xbl-smooth.xboxlive.com
-96.16.55.136                   xbl-smooth.xboxlive.com
-2600:1404:ec00:9::17cd:6d54    xbl-smooth.xboxlive.com
-2600:1404:ec00:9::17cd:6d48    xbl-smooth.xboxlive.com
-23.49.0.6                      titlehub.xboxlive.com
-23.67.33.145                   compass.xboxlive.com
-23.67.33.150                   compass.xboxlive.com
-2600:1404:ec00:4a::17dc:668a   compass.xboxlive.com
+104.114.76.160                 xbl-smooth.xboxlive.com
+104.114.76.155                 xbl-smooth.xboxlive.com
+2600:1404:ec00:4a::17dc:668c   xbl-smooth.xboxlive.com
+2600:1404:ec00:4a::17dc:6687   xbl-smooth.xboxlive.com
+23.47.180.50                   titlehub.xboxlive.com
+104.99.238.25                  compass.xboxlive.com
+104.99.238.19                  compass.xboxlive.com
 2600:1404:ec00:4a::17dc:6690   compass.xboxlive.com
-23.49.0.6                      xnotify.xboxlive.com
-23.200.60.25                   activityhub.xboxlive.com
-2600:1404:ec00:c8a::57         activityhub.xboxlive.com
+2600:1404:ec00:4a::17dc:668a   compass.xboxlive.com
+23.47.180.50                   xnotify.xboxlive.com
+23.202.56.7                    activityhub.xboxlive.com
+2600:1404:ec00:c9d::57         activityhub.xboxlive.com
 2600:1404:ec00:c89::57         activityhub.xboxlive.com
+2600:1404:ec00:c84::57         activityhub.xboxlive.com
+2600:1404:ec00:c98::57         activityhub.xboxlive.com
+2600:1404:ec00:c8d::57         activityhub.xboxlive.com
 # No resolution for xboxcare.xboxlive.com xboxcare.xboxlive.com
-23.49.0.6                      images-eds-ssl.xboxlive.com
+23.47.180.50                   images-eds-ssl.xboxlive.com
+2600:1404:ec00:584::57         images-eds-ssl.xboxlive.com
 2600:1404:ec00:58f::57         images-eds-ssl.xboxlive.com
-2600:1404:ec00:593::57         images-eds-ssl.xboxlive.com
-199.46.35.121                  rta.xboxlive.com
-23.200.60.25                   peoplehub.xboxlive.com
+199.46.35.125                  rta.xboxlive.com
+23.202.56.7                    peoplehub.xboxlive.com
 # No resolution for editorial.xboxlive.comedge.microsoft.com editorial.xboxlive.comedge.microsoft.com
 204.79.197.219                 msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com
 52.148.137.12                  next-services.apps.microsoft.com
@@ -60,22 +63,30 @@
 2a01:111:2003::50              tlu.dl.delivery.mp.microsoft.com
 13.107.4.50                    dl.delivery.mp.microsoft.com
 2a01:111:2003::50              dl.delivery.mp.microsoft.com
-23.44.229.230                  assets1.xboxlive.cn
-23.44.229.229                  assets1.xboxlive.cn
-2600:1404:ec00:45::1724:d98e   assets1.xboxlive.cn
-2600:1404:ec00:45::1724:d985   assets1.xboxlive.cn
-2600:1404:ec00:45::1724:d9c5   assets1.xboxlive.cn
-2600:1404:ec00:45::1724:d9bb   assets1.xboxlive.cn
-2600:1404:ec00:45::1724:d9a9   assets1.xboxlive.cn
-23.44.229.229                  assets2.xboxlive.cn
-23.44.229.230                  assets2.xboxlive.cn
-2600:1404:ec00:45::1724:d9c5   assets2.xboxlive.cn
-2600:1404:ec00:45::1724:d9a9   assets2.xboxlive.cn
-2600:1404:ec00:45::1724:d98e   assets2.xboxlive.cn
-2600:1404:ec00:45::1724:d9bb   assets2.xboxlive.cn
-2600:1404:ec00:45::1724:d985   assets2.xboxlive.cn
+23.50.8.161                    assets1.xboxlive.cn
+23.50.8.192                    assets1.xboxlive.cn
+23.50.8.155                    assets1.xboxlive.cn
+23.50.8.185                    assets1.xboxlive.cn
+23.50.8.227                    assets1.xboxlive.cn
+23.50.8.178                    assets1.xboxlive.cn
+2600:1404:6400:10::172f:32e4   assets1.xboxlive.cn
+2600:1404:6400:10::172f:32e8   assets1.xboxlive.cn
+2600:1404:6400:10::172f:32e3   assets1.xboxlive.cn
+2600:1404:6400:10::172f:32e5   assets1.xboxlive.cn
+2600:1404:6400:10::172f:32e6   assets1.xboxlive.cn
+23.50.8.155                    assets2.xboxlive.cn
+23.50.8.227                    assets2.xboxlive.cn
+23.50.8.161                    assets2.xboxlive.cn
+23.50.8.185                    assets2.xboxlive.cn
+23.50.8.192                    assets2.xboxlive.cn
+23.50.8.178                    assets2.xboxlive.cn
+2600:1404:6400:10::172f:32d6   assets2.xboxlive.cn
+2600:1404:6400:10::172f:32d2   assets2.xboxlive.cn
+2600:1404:6400:10::172f:32d3   assets2.xboxlive.cn
+2600:1404:6400:10::172f:32d5   assets2.xboxlive.cn
+2600:1404:6400:10::172f:32d0   assets2.xboxlive.cn
 
-# Last update at 2023-11-14 02:22:02 (Beijing Time)
+# Last update at 2023-11-14 09:14:57 (Beijing Time)
 # Star me GitHub url: https://github.com/JohyC/Hosts
 # Hosts End 
 
