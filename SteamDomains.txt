@@ -1,43 +1,43 @@
 # Hosts Start 
 # No resolution for kamaihd.net kamaihd.net
-104.89.226.113                 steamgames.com
-104.89.226.113                 steampowered.com
-23.59.200.146                  steamcommunity.com
-104.79.0.18                    cdn.steampowered.com
-104.79.0.41                    cdn.steampowered.com
-23.59.200.146                  api.steampowered.com
-104.79.0.41                    cdn.steampowered.com
-104.79.0.18                    cdn.steampowered.com
-23.59.200.146                  help.steampowered.com
-198.49.23.144                  steampoweredmedia.com
-198.49.23.145                  steampoweredmedia.com
-198.185.159.145                steampoweredmedia.com
+2.22.160.113                   steamgames.com
+2.22.160.113                   steampowered.com
+23.194.159.106                 steamcommunity.com
+104.96.220.130                 cdn.steampowered.com
+104.96.220.106                 cdn.steampowered.com
+23.194.159.106                 api.steampowered.com
+104.96.220.106                 cdn.steampowered.com
+104.96.220.130                 cdn.steampowered.com
+23.194.159.106                 help.steampowered.com
 198.185.159.144                steampoweredmedia.com
-23.44.229.238                  cdn.steamcommunity.com
-23.44.229.225                  cdn.steamcommunity.com
-96.16.55.107                   media.steampowered.com
-96.16.55.78                    media.steampowered.com
-23.37.17.175                   store.steampowered.com
-23.44.229.216                  cdn.akamai.steamstatic.com
-23.44.229.220                  cdn.akamai.steamstatic.com
-96.16.55.83                    cdn.store.steampowered.com
-96.16.55.109                   cdn.store.steampowered.com
-120.220.20.123                 store.st.dl.bscstorage.net
-120.222.158.24                 store.st.dl.bscstorage.net
+198.49.23.144                  steampoweredmedia.com
+198.185.159.145                steampoweredmedia.com
+198.49.23.145                  steampoweredmedia.com
+184.25.113.22                  cdn.steamcommunity.com
+184.25.113.16                  cdn.steamcommunity.com
+184.25.113.10                  media.steampowered.com
+184.25.113.12                  media.steampowered.com
+184.84.168.96                  store.steampowered.com
+184.25.113.10                  cdn.akamai.steamstatic.com
+184.25.113.12                  cdn.akamai.steamstatic.com
+184.25.113.38                  cdn.store.steampowered.com
+184.25.113.18                  cdn.store.steampowered.com
 120.192.85.36                  store.st.dl.bscstorage.net
+120.222.158.24                 store.st.dl.bscstorage.net
 120.220.20.122                 store.st.dl.bscstorage.net
+120.220.20.123                 store.st.dl.bscstorage.net
 120.222.158.25                 store.st.dl.bscstorage.net
-104.89.226.113                 storefront.steampowered.com
+2.22.160.113                   storefront.steampowered.com
 # No resolution for store.st.dl.pinyuncloud.com store.st.dl.pinyuncloud.com
 # No resolution for media.st.dl.pinyuncloud.com media.st.dl.pinyuncloud.com
-23.44.229.236                  store.akamai.steamstatic.com
-23.44.229.218                  store.akamai.steamstatic.com
-96.16.55.99                    steamcommunity-a.akamaihd.net
-96.16.55.69                    steamcommunity-a.akamaihd.net
-96.16.55.99                    community.akamai.steamstatic.com
-96.16.55.69                    community.akamai.steamstatic.com
+184.25.113.18                  store.akamai.steamstatic.com
+184.25.113.38                  store.akamai.steamstatic.com
+184.25.113.16                  steamcommunity-a.akamaihd.net
+184.25.113.22                  steamcommunity-a.akamaihd.net
+184.25.113.22                  community.akamai.steamstatic.com
+184.25.113.16                  community.akamai.steamstatic.com
 
-# Last update at 2024-05-13 20:35:01 (Beijing Time)
+# Last update at 2024-05-14 02:22:03 (Beijing Time)
 # Star me GitHub url: https://github.com/JohyC/Hosts
 # Hosts End 
 
