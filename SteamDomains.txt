@@ -6,18 +6,18 @@
 23.54.76.15                    cdn.steampowered.com
 23.54.76.18                    cdn.steampowered.com
 23.65.19.99                    api.steampowered.com
-23.54.76.18                    cdn.steampowered.com
 23.54.76.15                    cdn.steampowered.com
+23.54.76.18                    cdn.steampowered.com
 23.65.19.99                    help.steampowered.com
+198.49.23.145                  steampoweredmedia.com
 198.185.159.144                steampoweredmedia.com
 198.185.159.145                steampoweredmedia.com
 198.49.23.144                  steampoweredmedia.com
-198.49.23.145                  steampoweredmedia.com
 23.215.11.6                    cdn.steamcommunity.com
 23.215.11.27                   cdn.steamcommunity.com
-23.215.11.59                   media.steampowered.com
 23.215.11.90                   media.steampowered.com
-23.78.8.100                    store.steampowered.com
+23.215.11.59                   media.steampowered.com
+23.2.73.173                    store.steampowered.com
 23.215.11.59                   cdn.akamai.steamstatic.com
 23.215.11.90                   cdn.akamai.steamstatic.com
 23.215.11.4                    cdn.store.steampowered.com
@@ -28,14 +28,14 @@
 23.50.36.90                    storefront.steampowered.com
 38.238.125.26                  store.st.dl.pinyuncloud.com
 38.238.125.26                  media.st.dl.pinyuncloud.com
-23.215.11.57                   store.akamai.steamstatic.com
 23.215.11.4                    store.akamai.steamstatic.com
+23.215.11.57                   store.akamai.steamstatic.com
 23.215.11.6                    steamcommunity-a.akamaihd.net
 23.215.11.27                   steamcommunity-a.akamaihd.net
 23.215.11.27                   community.akamai.steamstatic.com
 23.215.11.6                    community.akamai.steamstatic.com
 
-# Last update at 2024-08-25 02:24:59 (Beijing Time)
+# Last update at 2024-08-25 09:39:45 (Beijing Time)
 # Star me GitHub url: https://github.com/JohyC/Hosts
 # Hosts End 
 
