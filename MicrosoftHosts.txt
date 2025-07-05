@@ -1,34 +1,34 @@
 # Hosts Start 
+40.126.62.131                  login.live.com
 20.190.190.194                 login.live.com
-20.190.190.195                 login.live.com
-40.126.62.129                  login.live.com
+20.190.190.196                 login.live.com
 20.190.190.131                 login.live.com
-20.190.190.132                 login.live.com
-40.126.62.132                  login.live.com
-20.190.190.130                 login.live.com
 20.190.190.193                 login.live.com
-20.190.151.67                  account.live.com
+20.190.190.130                 login.live.com
+20.190.190.195                 login.live.com
+20.190.190.129                 login.live.com
 20.190.151.131                 account.live.com
-20.190.151.134                 account.live.com
+20.190.151.6                   account.live.com
 20.190.151.132                 account.live.com
-20.190.151.133                 account.live.com
-20.190.151.7                   account.live.com
-20.190.151.9                   account.live.com
 20.190.151.70                  account.live.com
+20.190.151.7                   account.live.com
+20.190.151.134                 account.live.com
+20.190.151.9                   account.live.com
+20.190.151.67                  account.live.com
 # No resolution for livefilestore.com livefilestore.com
 13.107.42.12                   docs.live.net
-13.107.137.11                  onedrive.live.com
 13.107.139.11                  onedrive.live.com
-40.90.142.240                  skyapi.live.net
+13.107.137.11                  onedrive.live.com
+40.90.133.102                  skyapi.live.net
 13.107.42.12                   skyapi.onedrive.live.com
-23.207.129.162                 l.live.net
+184.27.2.141                   l.live.net
 13.107.42.12                   api.onedrive.com
 # No resolution for users.storage.live.com users.storage.live.com
-20.135.4.169                   storage.live.com
-13.107.246.40                  logincdn.msauth.net
-2620:1ec:bdf::40               logincdn.msauth.net
-13.107.246.40                  acctcdn.msauth.net
-2620:1ec:bdf::40               acctcdn.msauth.net
+40.90.133.112                  storage.live.com
+13.107.246.41                  logincdn.msauth.net
+2620:1ec:bdf::41               logincdn.msauth.net
+13.107.246.41                  acctcdn.msauth.net
+2620:1ec:bdf::41               acctcdn.msauth.net
 # No resolution for progdownload.zune.net progdownload.zune.net
 23.221.240.9                   gameclipscontent-d2009.xboxlive.com
 2600:1408:ac00:19c::57         gameclipscontent-d2009.xboxlive.com
@@ -37,56 +37,54 @@
 23.218.218.145                 images-eds.xboxlive.com
 2600:1408:c400:29::17da:da4f   images-eds.xboxlive.com
 2600:1408:c400:29::17da:da4c   images-eds.xboxlive.com
-23.205.105.24                  xbl-smooth.xboxlive.com
-23.205.105.59                  xbl-smooth.xboxlive.com
+23.215.0.228                   xbl-smooth.xboxlive.com
+23.215.0.234                   xbl-smooth.xboxlive.com
 2600:1408:ec00:17::17d7:8a     xbl-smooth.xboxlive.com
 2600:1408:ec00:17::17d7:91     xbl-smooth.xboxlive.com
-23.210.240.10                  titlehub.xboxlive.com
+23.220.128.10                  titlehub.xboxlive.com
 # No resolution for compass.xboxlive.com compass.xboxlive.com
-23.221.240.9                   xnotify.xboxlive.com
+23.220.128.10                  xnotify.xboxlive.com
 52.165.145.141                 activityhub.xboxlive.com
 # No resolution for xboxcare.xboxlive.com xboxcare.xboxlive.com
 23.221.240.9                   images-eds-ssl.xboxlive.com
-2600:1408:ac00:191::57         images-eds-ssl.xboxlive.com
 2600:1408:ac00:19c::57         images-eds-ssl.xboxlive.com
-199.46.35.120                  rta.xboxlive.com
-23.45.148.9                    peoplehub.xboxlive.com
+2600:1408:ac00:191::57         images-eds-ssl.xboxlive.com
+199.46.35.128                  rta.xboxlive.com
+104.72.156.10                  peoplehub.xboxlive.com
 # No resolution for editorial.xboxlive.comedge.microsoft.com editorial.xboxlive.comedge.microsoft.com
 23.54.127.44                   msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com
 23.54.127.40                   msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com
 2600:1408:ec00:1f::1735:23d0   msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com
 2600:1408:ec00:1f::1735:23cb   msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com
 94.245.104.73                  next-services.apps.microsoft.com
-23.218.218.162                 tlu.dl.delivery.mp.microsoft.com
-23.218.218.142                 tlu.dl.delivery.mp.microsoft.com
-2600:1408:c400:a::17cd:690a    tlu.dl.delivery.mp.microsoft.com
-2600:1408:c400:a::17cd:6925    tlu.dl.delivery.mp.microsoft.com
-208.89.73.153                  dl.delivery.mp.microsoft.com
-208.89.73.149                  dl.delivery.mp.microsoft.com
-208.89.73.151                  dl.delivery.mp.microsoft.com
-208.89.73.155                  dl.delivery.mp.microsoft.com
-208.89.73.145                  dl.delivery.mp.microsoft.com
-208.89.73.159                  dl.delivery.mp.microsoft.com
-208.89.73.147                  dl.delivery.mp.microsoft.com
-208.89.73.157                  dl.delivery.mp.microsoft.com
-2607:1640:73::151              dl.delivery.mp.microsoft.com
-2607:1640:73::155              dl.delivery.mp.microsoft.com
-2607:1640:73::145              dl.delivery.mp.microsoft.com
-2607:1640:73::153              dl.delivery.mp.microsoft.com
-2607:1640:73::157              dl.delivery.mp.microsoft.com
-2607:1640:73::147              dl.delivery.mp.microsoft.com
-2607:1640:73::159              dl.delivery.mp.microsoft.com
-2607:1640:73::149              dl.delivery.mp.microsoft.com
+208.89.73.155                  tlu.dl.delivery.mp.microsoft.com
+208.89.73.151                  tlu.dl.delivery.mp.microsoft.com
+208.89.73.157                  tlu.dl.delivery.mp.microsoft.com
+208.89.73.149                  tlu.dl.delivery.mp.microsoft.com
+208.89.73.147                  tlu.dl.delivery.mp.microsoft.com
+208.89.73.153                  tlu.dl.delivery.mp.microsoft.com
+208.89.73.159                  tlu.dl.delivery.mp.microsoft.com
+208.89.73.145                  tlu.dl.delivery.mp.microsoft.com
+2607:1640:73::149              tlu.dl.delivery.mp.microsoft.com
+2607:1640:73::153              tlu.dl.delivery.mp.microsoft.com
+2607:1640:73::159              tlu.dl.delivery.mp.microsoft.com
+2607:1640:73::151              tlu.dl.delivery.mp.microsoft.com
+2607:1640:73::157              tlu.dl.delivery.mp.microsoft.com
+2607:1640:73::155              tlu.dl.delivery.mp.microsoft.com
+2607:1640:73::147              tlu.dl.delivery.mp.microsoft.com
+2607:1640:73::145              tlu.dl.delivery.mp.microsoft.com
+146.75.30.172                  dl.delivery.mp.microsoft.com
+2a04:4e42:77::684              dl.delivery.mp.microsoft.com
 23.53.11.77                    assets1.xboxlive.cn
 23.54.127.231                  assets1.xboxlive.cn
-2600:1408:c400:a::17cd:6917    assets1.xboxlive.cn
-2600:1408:c400:a::17cd:6923    assets1.xboxlive.cn
-23.53.11.77                    assets2.xboxlive.cn
+2600:1408:ec00:1402::1735:b4d  assets1.xboxlive.cn
+2600:1408:ec00:1408::1736:7fe7 assets1.xboxlive.cn
 23.54.127.231                  assets2.xboxlive.cn
-2600:1408:c400:a::17cd:6917    assets2.xboxlive.cn
-2600:1408:c400:a::17cd:6923    assets2.xboxlive.cn
+23.53.11.77                    assets2.xboxlive.cn
+2600:1408:ec00:1402::1735:b4d  assets2.xboxlive.cn
+2600:1408:ec00:1408::1736:7fe7 assets2.xboxlive.cn
 
-# Last update at 2025-07-05 14:34:10 (Beijing Time)
+# Last update at 2025-07-05 20:47:51 (Beijing Time)
 # Star me GitHub url: https://github.com/JohyC/Hosts
 # Hosts End 
 
